@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
+//@ts-ignore
 import { JWT_SECRET } from "@repo/backend-common/config";
 
 interface CustomRequest extends Request {

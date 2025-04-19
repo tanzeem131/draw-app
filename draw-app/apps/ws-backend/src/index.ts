@@ -1,4 +1,5 @@
 import jwt, { JwtPayload } from "jsonwebtoken";
+//@ts-ignore
 import { JWT_SECRET } from "@repo/backend-common/config";
 import { WebSocketServer } from "ws";
 
